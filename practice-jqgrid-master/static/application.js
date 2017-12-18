@@ -15,8 +15,8 @@ $(document).ready(function() {
         data: gridData,
         datatype: "local",
 	// Set the proper column names here
-        colNames: ['InvNo', 'Client'],
-	// Define as many columns below as there are column names. 
+        colNames: ['InvNo', 'Client','Client','Client','Client','Client','Client','Client','Client','Client','Client','Client','Client'],
+	// Define as many columns below as there are column names.
 	// Otherwise, everything will stop working!!!
         colModel: [{
             name: 'id',
@@ -30,7 +30,63 @@ $(document).ready(function() {
             index: 'name',
             width: 100,
             frozen: true
-        }],
+        },{
+            name: 'name',
+            index: 'name',
+            width: 100,
+            frozen: false
+        },{
+            name: 'name',
+            index: 'name',
+            width: 100,
+            frozen: false
+        },{
+            name: 'name',
+            index: 'name',
+            width: 100,
+            frozen: false
+        },{
+            name: 'name',
+            index: 'name',
+            width: 100,
+            frozen: false
+        },{
+            name: 'name',
+            index: 'name',
+            width: 100,
+            frozen: false
+        },{
+            name: 'name',
+            index: 'name',
+            width: 100,
+            frozen: false
+        },{
+            name: 'name',
+            index: 'name',
+            width: 100,
+            frozen: false
+        },{
+            name: 'name',
+            index: 'name',
+            width: 100,
+            frozen: false
+        },{
+            name: 'name',
+            index: 'name',
+            width: 100,
+            frozen: false
+        },{
+            name: 'name',
+            index: 'name',
+            width: 100,
+            frozen: false
+        },{
+            name: 'name',
+            index: 'name',
+            width: 100,
+            frozen: false
+        }
+      ],
         rowNum: 10,
         width: 700,
         rowList: [10, 20, 30],
